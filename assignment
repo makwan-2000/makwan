@@ -1,0 +1,30 @@
+import java.util.Scanner;
+    public class Makwan_mustafa{
+    
+      public static void main(String[]args){
+       
+         Scanner m=new Scanner(System.in);
+         System.out.println("How many latters your name ?");
+         
+         int mak=m.nextInt();
+         char[]array=new char[mak];
+            System.out.println("write your name in latters");
+            
+         for(int x=0;x<array.lenght;x++){
+              char halaw=m.next().charAt(0);
+              
+              array[x]=halaw;
+         }
+         
+        System.out.print("your name is ");
+        
+        for(int x=0;x<mak;x++){
+            System.out.print(array[x]);
+        }
+        
+       System.out.println();
+      
+      }
+    
+    
+    }
